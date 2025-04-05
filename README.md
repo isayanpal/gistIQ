@@ -1,6 +1,8 @@
 # GistIQ
 *A smart PDF summarization tool powered by Gemini AI*
 
+<img src="images/gist-iq.png">
+
 ## 🚀 Overview
 GistIQ is an AI-powered tool that helps users quickly summarize PDFs using **Gemini AI**. Users can upload a PDF, generate a concise summary, and download the summarized version for easy reference. 
 
