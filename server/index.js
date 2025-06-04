@@ -50,6 +50,10 @@ app.post("/upload", upload.single("pdf"), async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the PDF Summary API. Use POST /upload to upload a PDF file.");
+})
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
